@@ -1,0 +1,31 @@
+{
+  "name": "seed-demo",
+  "version": "1.0.0",
+  "description": "a seed demo",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "npm run build && mocha --compilers js:babel-core/register",
+    "build": "tsc"
+  },
+  "keywords": [
+    "npm module",
+    "ts",
+    "seed",
+    "demo"
+  ],
+  "author": "zmzhang",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "chai": "^4.1.2",
+    "mocha": "^5.0.4",
+    "typescript": "^2.7.2"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
+  }
+}
