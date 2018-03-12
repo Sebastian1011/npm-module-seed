@@ -1,10 +1,9 @@
-
-class PathDrawer{
+class PathDrawer {
     greeting: string;
-    constructor(message: string){
+    constructor(message: string) {
         this.greeting = message;
     }
-    hello(){
+    hello() {
         return this.greeting;
     }
 }
